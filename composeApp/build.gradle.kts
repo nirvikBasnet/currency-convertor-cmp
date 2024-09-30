@@ -63,6 +63,8 @@ kotlin {
             implementation(libs.ktor.serialization.kotlinx.json)
             implementation(libs.ktor.client.core)
 
+            implementation(libs.kotlinx.datetime)
+
 
 
         }

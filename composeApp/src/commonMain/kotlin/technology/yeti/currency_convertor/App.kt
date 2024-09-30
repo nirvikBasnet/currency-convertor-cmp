@@ -14,11 +14,14 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 
 import currencyconvertor.composeapp.generated.resources.Res
 import currencyconvertor.composeapp.generated.resources.compose_multiplatform
+import technology.yeti.currency_convertor.di.initKoin
 import technology.yeti.currency_convertor.presentation.screen.HomePage
 
 @Composable
 @Preview
 fun App() {
+
+    initKoin()
 
         MaterialTheme {
             Navigator(HomePage())
